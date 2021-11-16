@@ -8,8 +8,10 @@ $(function() {
         let i = $(this).index();
         if (parent.hasClass('is-open')) {
             parent.removeClass('is-open');
+            body.slideUp();
         } else {
             parent.addClass('is-open');
+            body.slideDown();
         }
     });
 
