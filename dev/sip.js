@@ -1,4 +1,4 @@
-// ouiiiiiiii??
+// on y croit.....
 $(function() {
 
     $(document).on('click', '.adm__spoiler h4', function() {
