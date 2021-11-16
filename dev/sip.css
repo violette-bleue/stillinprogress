@@ -43,7 +43,6 @@
     -moz-transition: .2s all cubic-bezier(0.4,0,0.2,1);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
-    -webkit-font-feature-settings: liga;
     -webkit-font-smoothing: antialiased;
     -webkit-transform: translateY(-50%);
     -webkit-transition: .2s all cubic-bezier(0.4,0,0.2,1);
