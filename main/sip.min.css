@@ -135,17 +135,17 @@ option[value="sansnom"] {
     color: white;
 }
 
-a.architecte span,
-a.pretresse span,
-a.hierophante span,
-a.temperance span,
-a.lune span,
-a.soleil span,
-a.tyran span,
-a.justice span,
-a.jugement span,
-a.amoureux span,
-a.mat span {
+.architecte span,
+.pretresse span,
+.hierophante span,
+.temperance span,
+.lune span,
+.soleil span,
+.tyran span,
+.justice span,
+.jugement span,
+.amoureux span,
+.mat span {
     color: var(--bg-color-1) !important;
 }
 
