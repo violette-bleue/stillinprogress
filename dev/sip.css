@@ -72,9 +72,11 @@
     word-wrap: normal;
     z-index: 0;
 }
+
 .adm__spoiler-body p:last-of-type {
     margin-bottom: 16px;
 }
+
 .adm__spoiler-body:before {
     background: linear-gradient(180deg,#825461,transparent);
     content: '';
