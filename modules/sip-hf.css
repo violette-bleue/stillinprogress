@@ -1,0 +1,210 @@
+fieldset table#rpg-haut-faits tbody {
+    text-align: center;
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+
+#rpg-haut-faits tbody tr {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#rpg-haut-faits {
+    margin-top: 25px;
+}
+hf:after {
+    content: '';
+    display: block;
+    height: 30px;
+    background-size: 50px!important;
+    padding-bottom: 90px;
+    width: fit-content;
+    min-width: 100px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--t-color-2);transition: all .5s;
+    background: no-repeat center 30px/ contain;
+}
+
+hf:before {
+    margin-top: -142px;
+    width: max-content;
+    font-size: 11px;
+    position: absolute;
+    transition: all .5s;
+    opacity: 0;
+    color: var(--bg-color-1);
+    background: var(--m-color-2);
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-weight: 400;
+}
+hf {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 7px;
+    background: var(--bg-color-1);
+    margin: 4px 3px;text-align: center;
+    border-radius: 2px;transition: all .5s;
+    cursor: pointer;
+}
+hf:hover:before {
+    opacity: 1;
+    transition: all .5s;
+}
+hf:hover {
+    background: var(--m-color-1);transition: all .5s;
+}
+hf:hover:after {
+    color: white;transition: all .5s;
+}
+/** blank
+hf[num=""]:before {content: '';}
+hf[num=""]:after {content: '';    background-image: url();}
+**/
+
+hf[num="1"]:before {content: 'premier post rp posté';}
+hf[num="1"]:after {content: 'éveil';    background-image: url(https://i.imgur.com/Hm2JqWB.png);}
+
+hf[num="2"]:before {content: 'reroll son personnage';}
+hf[num="2"]:after {content: 'TRY AGAIN';    background-image: url(https://i.imgur.com/I79EsJV.png);}
+
+hf[num="3"]:before {content: 'mort de son personnage précédent';}
+hf[num="3"]:after {content: 'GAME OVER';    background-image: url(https://i.imgur.com/GGthjKR.png);}
+
+hf[num="4"]:before {content: 'mourir lors de son premier event';}
+hf[num="4"]:after {content: 'YOU SHALL NOT PASS';    background-image: url(https://i.imgur.com/1BKHhyS.png);}
+
+
+
+hf[num="5"]:before {content: 'obtenir une intervention rp divine';}
+hf[num="5"]:after {content: 'THE CHOSEN ONE';    background-image: url(https://i.imgur.com/2Cec5F5.png);}
+
+hf[num="6"]:before {content: "obtenir une intervention rp d'un 10PH";}
+hf[num="6"]:after {content: ' RUN FORREST RUN !';    background-image: url(https://i.imgur.com/n5bsnAc.png);}
+
+
+
+hf[num="7"]:before {content: 'tuer un membre';}
+hf[num="7"]:after {content: 'PREMIER SANG';    background-image: url(https://i.imgur.com/YZtH7om.png);}
+
+hf[num="8"]:before {content: 'tuer 5 membres';}
+hf[num="8"]:after {content: 'PURIFICATEUR ';    background-image: url(https://i.imgur.com/T2I1D5F.png);}
+
+
+
+hf[num="9"]:before {content: 'gagner un combat';}
+hf[num="9"]:after {content: 'PETIT JOUEUR';    background-image: url(https://i.imgur.com/wEcbmhz.png);}
+
+hf[num="10"]:before {content: 'gagner 5 combats';}
+hf[num="10"]:after {content: 'JOUEUR';    background-image: url(https://i.imgur.com/vTZ7wvK.png);}
+
+hf[num="11"]:before {content: 'gagner 10 combats';}
+hf[num="11"]:after {content: 'SUNG JIN WOO';    background-image: url(https://i.imgur.com/MHrWJyr.png);}
+
+
+
+hf[num="12"]:before {content: 'affronter un avatar';}
+hf[num="12"]:after {content: 'ENRYU WHO ?';    background-image: url(https://i.imgur.com/gJ3tGfL.png);}
+
+hf[num="13"]:before {content: 'affronter un des 10PH';}
+hf[num="13"]:after {content: '99 PROBLEMS';    background-image: url(https://i.imgur.com/R755yFr.png);}
+
+hf[num="14"]:before {content: 'tuer un des 10PH';}
+hf[num="14"]:after {content: "A BITCH AIN'T ONE";    background-image: url(https://i.imgur.com/ITkpQBM.png);}
+
+hf[num="15"]:before {content: 'tuer un irrégulier';}
+hf[num="15"]:after {content: 'INVADERS MUST DIE';    background-image: url(https://i.imgur.com/SE17Tqy.png);}
+
+
+
+hf[num="16"]:before {content: 'user de la compétence de sa bénédiction';}
+hf[num="16"]:after {content: 'GOOD BOY/GIRL';    background-image: url();}
+
+hf[num="17"]:before {content: 'user de la compétence de sa famille';}
+hf[num="17"]:after {content: 'LIKE DADDY/MOMMY';    background-image: url();}
+
+
+
+hf[num="18"]:before {content: 'échapper de très peu à la mort';}
+hf[num="18"]:after {content: 'I WILL SURVIVE';    background-image: url(https://i.imgur.com/bpN3uaa.png);}
+
+/** ******************** ETAGES *********************** **/
+hf[num="19"]:before {content: 'atteindre l’étage 21';}
+hf[num="19"]:after {content: 'NEW BORN';    background-image: url(https://i.imgur.com/sTeijzN.png);}
+
+hf[num="20"]:before {content: 'atteindre l’étage 41';}
+hf[num="20"]:after {content: 'RANKER';    background-image: url(https://i.imgur.com/4u0gRaN.png);}
+
+hf[num="21"]:before {content: 'atteindre l’étage 71';}
+hf[num="21"]:after {content: 'ADVANCED RANKER';    background-image: url(https://i.imgur.com/yqjFOzq.png);}
+
+hf[num="22"]:before {content: 'atteindre l’étage 101';}
+hf[num="22"]:after {content: 'ETOILE MONTANTE';    background-image: url();}
+
+
+
+hf[num="23"]:before {content: 'réussir à passer son premier étage';}
+hf[num="23"]:after {content: 'SUNBURN';    background-image: url(https://i.imgur.com/yKje96e.png);}
+
+hf[num="24"]:before {content: 'rencontrer le lapin blanc';}
+hf[num="24"]:after {content: 'FOLLOW THE WHITE RABBIT';    background-image: url(https://i.imgur.com/JoiVEp4.png);}
+
+hf[num="25"]:before {content: 'survivre au 10è étage';}
+hf[num="25"]:after {content: 'SPARTIATE ';    background-image: url(https://i.imgur.com/7BApVjz.png);}
+
+hf[num="26"]:before {content: 'empêcher sciemment quelqu’un de valider son test';}
+hf[num="26"]:after {content: 'SABOTEUR';    background-image: url(https://i.imgur.com/vjfOhTz.png);}
+
+hf[num="27"]:before {content: 'descendre d’au moins un étage';}
+hf[num="27"]:after {content: 'RETOUR VERS LE FUTUR';    background-image: url(https://i.imgur.com/xh6o5in.png);}
+
+/** *********************** RELATION ************************* **/
+hf[num="28"]:before {content: 'rejoindre ou créer une team';}
+hf[num="28"]:after {content: 'YNWA';    background-image: url(https://i.imgur.com/4A4WEWN.png);}
+
+hf[num="29"]:before {content: 'quitter ou trahir sa team';}
+hf[num="29"]:after {content: 'RACHEL';    background-image: url(https://i.imgur.com/n9OJnH0.png);}
+
+hf[num="30"]:before {content: 'se sacrifier pour ses compagnons';}
+hf[num="30"]:after {content: 'KHUN AGUERO AGNES';    background-image: url();}
+
+hf[num="31"]:before {content: 'obtenir un poste important dans une organisation';}
+hf[num="31"]:after {content: 'FRANC-MAÇON';    background-image: url();}
+
+hf[num="32"]:before {content: 'avoir un échange avec l’Empereur';}
+hf[num="32"]:after {content: 'CONSÉCRATION';    background-image: url();}
+
+hf[num="33"]:before {content: 'voler les ressources d’un autre membre';}
+hf[num="33"]:after {content: 'PENELOPEGATE';    background-image: url();}
+
+
+
+/***************************** HRP **********************************/
+hf[num="34"]:before {content: "avoir rejoint le discord avant l'ouverture au grand public";}
+hf[num="34"]:after {content: 'ALPHA TESTEUR ';    background-image: url();}
+
+hf[num="35"]:before {content: 'avoir rejoint le discord avant la préouverture du forum';}
+hf[num="35"]:after {content: 'BETA TESTEUR';    background-image: url();}
+
+hf[num="36"]:before {content: 'avoir participer activement à la correction des textes';}
+hf[num="36"]:after {content: 'DOUBLE ESPACE';    background-image: url(https://i.imgur.com/hrbOMvY.png);}
+
+hf[num="37"]:before {content: 'avoir ramener au moins cinq membres';}
+hf[num="37"]:after {content: 'GODFATHER ';    background-image: url();}
+
+hf[num="38"]:before {content: 'avoir fait remonter des bugs de codages';}
+hf[num="38"]:after {content: 'BUG REPORT';    background-image: url(https://i.imgur.com/ybBBtI3.png);}
+
+hf[num="39"]:before {content: ' avoir créé au moins deux compétences';}
+hf[num="39"]:after {content: 'ANOTHER ONE';    background-image: url();}
