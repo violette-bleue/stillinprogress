@@ -1,4 +1,4 @@
-
+// TEST
 $(function() {
 
     $(document).on('click', '.adm__spoiler h4', function() {
